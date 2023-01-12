@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Entity
 {
-      public class Hemsire
+    public class Hemsire
     {
-        
+        public int ID {get; set; }
+        public int FirstName { get; set; }
     }
 }
