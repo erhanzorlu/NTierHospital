@@ -15,7 +15,7 @@ namespace DataAccess.Entity
 
         public List<Hemsire> Nurses { get; set; }
 
-        public List<Randevu> Apointments { get; set; }
+        public List<Randevu> Appointments { get; set; }
 
         public List<Doktor> Doctors { get; set; }
 

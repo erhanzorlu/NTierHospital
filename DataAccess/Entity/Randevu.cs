@@ -10,16 +10,17 @@ namespace DataAccess.Entity
     {
         public Randevu()
         {
-            ApointmentDate = DateTime.Now;
+            AppointmentDate = DateTime.Now;
         }
         public int ID { get; set; }
 
-        public DateTime ApointmentDate { get; set; }
-
+        public DateTime AppointmentDate { get; set; }
         //Navigation props
 
-        public int PoliklinikID { get; set; }
-        public int HastaID { get; set; }
+        public int PoliclinicID { get; set; }
+        public int PatientID { get; set; }
+        public Poliklinik Policlinic { get; set; }
+        public Hasta Patient { get; set; }
 
     }
 }

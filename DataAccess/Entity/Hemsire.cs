@@ -11,9 +11,9 @@ namespace DataAccess.Entity
         public int ID {get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public DateTime HireDate { get; set; }
-        public int PoliklinikID { get; set; }
 
-
+        //Navigation Props
+        public int PoliclinicID { get; set; }
+        public Poliklinik Policlinic { get; set; }
     }
 }
