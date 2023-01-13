@@ -19,7 +19,7 @@ namespace DataAccess.Context
         {
             if(!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("server=DESKTOP-VR7NBQ8\\SQLEXPRESS; Database = HospitalDb; Trusted_Connection = true;TrustServerCertificate = true");
+                optionsBuilder.UseSqlServer("server=localhost; Database = HospitalDb; Trusted_Connection = true;TrustServerCertificate = true");
             }
         }
     }

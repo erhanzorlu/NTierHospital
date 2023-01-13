@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33103.201
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{290ECB3F-64CC-4B05-8F84-A9864C1B7B72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{290ECB3F-64CC-4B05-8F84-A9864C1B7B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{FC5AAF1B-D995-4ACD-879C-9A706D099ED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrensantationLayer", "PrensantationLayer\PrensantationLayer.csproj", "{5CFADD09-4A6C-4E57-8912-28006E5BB47E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{290ECB3F-64CC-4B05-8F84-A9864C1B7B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{290ECB3F-64CC-4B05-8F84-A9864C1B7B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{290ECB3F-64CC-4B05-8F84-A9864C1B7B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC5AAF1B-D995-4ACD-879C-9A706D099ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC5AAF1B-D995-4ACD-879C-9A706D099ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC5AAF1B-D995-4ACD-879C-9A706D099ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC5AAF1B-D995-4ACD-879C-9A706D099ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CFADD09-4A6C-4E57-8912-28006E5BB47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFADD09-4A6C-4E57-8912-28006E5BB47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFADD09-4A6C-4E57-8912-28006E5BB47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFADD09-4A6C-4E57-8912-28006E5BB47E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
